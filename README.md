@@ -34,5 +34,6 @@
      
    # Output 
 
-   ![Alt Text](https://i.ibb.co/TLHvzrG/Simulator-Screen-Recording-i-Phon.gif)
-    
+   Link : https://i.ibb.co/M9ZX4s6/Simulator-Screen-Shot-i-Phone-13-2022-04-25-at-20-13-18.png
+   
+   Link : https://i.ibb.co/30yV8Jz/Simulator-Screen-Shot-i-Phone-13-2022-04-25-at-20-13-27.png
