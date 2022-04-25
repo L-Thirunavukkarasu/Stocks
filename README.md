@@ -34,5 +34,5 @@
      
    # Output 
 
-   ![Alt Text](https://i.ibb.co/GRG696y/intellect.gif)
+   ![Alt Text](https://i.ibb.co/TLHvzrG/Simulator-Screen-Recording-i-Phon.gif)
     
