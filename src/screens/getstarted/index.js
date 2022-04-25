@@ -1,6 +1,6 @@
 //import liraries
 import React, {memo} from 'react';
-import {StyleSheet, View, Text, TouchableOpacity,Image} from 'react-native';
+import {StyleSheet, View, Text, TouchableOpacity, Image} from 'react-native';
 import {colors} from '../../constants/colors';
 
 // create a component
@@ -8,14 +8,21 @@ const GetStarted = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View style={styles.container_sub}>
-          <Image source={require('../../../assets/images/logo.png')} style={styles.get_started_img} />
+        <Image
+          source={require('../../../assets/images/logo.png')}
+          style={styles.get_started_img}
+        />
         <Text style={styles.title_txt}>Stocks</Text>
       </View>
       <Text style={styles.desc_txt}>
-          An invoice is a time-stamped commercial document that itemizes and
-          records a transaction between a buyer and a seller.
-        </Text>
-      <TouchableOpacity style={styles.get_started_btn} onPress={()=> navigation.replace('Home')}>
+        A stock is a general term used to describe the ownership certificates of
+        any company. A share, on the other hand, refers to the stock certificate
+        of a particular company. Holding a particular company's share makes you
+        a shareholder.
+      </Text>
+      <TouchableOpacity
+        style={styles.get_started_btn}
+        onPress={() => navigation.replace('Home')}>
         <Text style={styles.get_started_txt}>GET STARTED</Text>
       </TouchableOpacity>
     </View>
@@ -33,12 +40,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-end',
     alignItems: 'center',
-    marginBottom:'10%'
+    marginBottom: '10%',
   },
   title_txt: {
     fontSize: 29,
     color: colors.app_light_white,
-    marginVertical:10,
+    marginVertical: 10,
   },
   desc_txt: {
     fontSize: 19,
@@ -54,20 +61,20 @@ const styles = StyleSheet.create({
     backgroundColor: colors.app_base_color,
     padding: 15,
     borderRadius: 15,
-    width:'80%',
+    width: '80%',
     alignItems: 'center',
-    alignSelf:'center',
+    alignSelf: 'center',
   },
   get_started_txt: {
     fontSize: 20,
     color: colors.app_white,
     fontWeight: 'bold',
   },
-  get_started_img:{
-      resizeMode:'contain',
-      width:100,
-      height:100
-  }
+  get_started_img: {
+    resizeMode: 'contain',
+    width: 100,
+    height: 100,
+  },
 });
 
 //make this component available to the app
